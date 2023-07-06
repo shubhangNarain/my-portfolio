@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className='w-screen h-screen bg-gradient-to-r from-slate-900 to-slate-800'>
+    <div className='w-full h-full bg-gradient-to-r from-slate-900 to-slate-800'>
       <Navbar/>
       <div className='grid h-screen grid-cols-[60%,40%]'>
         
@@ -31,26 +31,42 @@ export default function Home() {
               <div className='p-10 m-5 rounded-2xl flex items-end
                 bg-gradient-to-tl from-gray-300 via-fuchsia-600 to-orange-600'>
                 <div className='text-7xl font-bold flex flex-col'>
-                  <span className='bg-gradient-to-r from-cyan-00 via-red-400 to-red-300 text-transparent bg-clip-text'>Hi!</span>
-                  <span className='bg-gradient-to-r from-cyan-00 via-red-400 to-red-300 text-transparent bg-clip-text'>I'm Shubhang</span>
+                  <span className=''>Hi!</span>
+                  <span className=''>I'm Shubhang</span>
                 </div>
               </div>
             
           </div>
 
-          <div className='grid grid-rows-[60%,40%] bg-blue-500'>
+          <div className='grid grid-rows-[60%,40%] '>
               
-            <div>
-              One
+            <div className='grid grid-cols-2'>
+              <div className='m-5 flex items-center justify-center rounded-2xl
+                bg-gradient-to-tl from-blue-500 via-fuchsia-600 to-orange-600
+              '>
+                Testimonials
+              </div>
+
+              <div className='mx-5 my-12 flex items-center justify-center rounded-2xl
+                bg-gradient-to-tl from-blue-500 via-fuchsia-600 to-orange-600'>
+                Testimonial Right
+              </div>
             </div>
 
-            <div>
+            <div className='m-5 flex items-center justify-center rounded-2xl
+                bg-gradient-to-tl from-blue-500 via-fuchsia-600 to-orange-600'>
               Two
             </div>
+
           </div>
+
+
         </div>
         
-        <div>Right</div>
+        <div className='m-5 flex items-center justify-center rounded-2xl
+                bg-gradient-to-tl from-blue-500 via-fuchsia-600 to-orange-600'>
+          
+        </div>
       </div>
     </div>
   )
