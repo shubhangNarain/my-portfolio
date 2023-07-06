@@ -21,15 +21,17 @@ export default function Home() {
           <div className='grid grid-cols-[20%,80%] '>
             
               <div className='p-10 m-5 rounded-2xl grid grid-flow-row justify-center items-center
-                bg-gradient-to-tl from-blue-500 via-fuchsia-600 to-orange-600'>
-                <FiGithub size={30}/>
-                <BsInstagram size={30}/>
-                <FaDev size={30}/>
-                <GrFacebook size={30}/>
+                bg-gradient-to-tl from-blue-500 via-fuchsia-600 to-orange-600
+                hover:scale-[105%] ease-in-out duration-300'>
+                <FiGithub className='hover:scale-[150%] ease-in-out duration-150' size={30}/>
+                <BsInstagram className='hover:scale-[150%] ease-in-out duration-150' size={30}/>
+                <FaDev className='hover:scale-[150%] ease-in-out duration-150' size={30}/>
+                <GrFacebook className='hover:scale-[150%] ease-in-out duration-150' size={30}/>
               </div>
               
               <div className='p-10 m-5 rounded-2xl flex items-end
-                bg-gradient-to-tl from-gray-300 via-fuchsia-600 to-orange-600'>
+                bg-gradient-to-tl from-gray-300 via-fuchsia-600 to-orange-600
+                  hover:scale-[105%] ease-in-out duration-300'>
                 <div className='text-7xl font-bold flex flex-col'>
                   <span className=''>Hi!</span>
                   <span className=''>I'm Shubhang</span>
@@ -43,18 +45,20 @@ export default function Home() {
             <div className='grid grid-cols-2'>
               <div className='m-5 flex items-center justify-center rounded-2xl
                 bg-gradient-to-tl from-blue-500 via-fuchsia-600 to-orange-600
-              '>
+                hover:scale-[105%] ease-in-out duration-300'>
                 Testimonials
               </div>
 
               <div className='mx-5 my-12 flex items-center justify-center rounded-2xl
-                bg-gradient-to-tl from-blue-500 via-fuchsia-600 to-orange-600'>
+                bg-gradient-to-tl from-blue-500 via-fuchsia-600 to-orange-600
+                hover:scale-[105%] ease-in-out duration-300'>
                 Testimonial Right
               </div>
             </div>
 
             <div className='m-5 flex items-center justify-center rounded-2xl
-                bg-gradient-to-tl from-blue-500 via-fuchsia-600 to-orange-600'>
+                bg-gradient-to-tl from-blue-500 via-fuchsia-600 to-orange-600
+                hover:scale-[105%] ease-in-out duration-300'>
               Two
             </div>
 
@@ -64,7 +68,8 @@ export default function Home() {
         </div>
         
         <div className='m-5 flex items-center justify-center rounded-2xl
-                bg-gradient-to-tl from-blue-500 via-fuchsia-600 to-orange-600'>
+                bg-gradient-to-tl from-blue-500 via-fuchsia-600 to-orange-600
+                hover:scale-[105%] ease-in-out duration-300'>
           
         </div>
       </div>
