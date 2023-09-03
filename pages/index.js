@@ -39,7 +39,7 @@ export default function Home() {
 
 
   return (
-    <div className='' ref={vantaRef}>
+    <div className='wrapper' ref={vantaRef}>
       <Head>
         <title>Shubhang Narain</title>
         <meta name="description" content="Shubhang's Portfolio" />
@@ -102,7 +102,7 @@ export default function Home() {
         
         <div className='m-5 flex items-center justify-center rounded-2xl
                 bg-gray-900 bg-clip-padding backdrop-filter backdrop-blur-sm
-                bg-opacity-20 hover:scale-[105%] ease-in-out duration-300 text-white'>
+                bg-opacity-20 hover:scale-[105%] ease-in-out duration-300 text-black'>
           <Contact/>
         </div>
       </div>

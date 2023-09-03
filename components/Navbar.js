@@ -14,10 +14,11 @@ const Navbar = () => {
       </Link>
 
       <div className='p-5 lg:p-10'>
-        <Link class="bg-transparent hover:bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 hover:text-black text-white-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+        <Link class="bg-transparent hover:bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400
+          hover:text-black text-white-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow lg:text-lg text-sm"
           href="https://drive.google.com/file/d/1C2hlxTJiXzwPv9ch8FiRaTt-LJCuEa2-/view?usp=sharing"
         >
-          <span className='text-[10px]'>Download Resume</span>
+          Download Resume
         </Link>
       </div>
     </div>
