@@ -9,17 +9,17 @@ const News = () => {
     const getNews = async () => {
         const res = await fetch('https://newsapi.org/v2/everything?q=technology&apiKey=b4a749d8c892469abd9768961717a173')
         const data = await res.json()
-        setNews(data)
+        setNews(data.articles)
         console.log(news);
     }
     getNews()
-  },[])
+  }, [])
 
   return (
     <div className="p-5 h-full w-full flex flex-col items-start">
       <Image
         className="rounded-md hover:scale-105 ease-in-out duration-300"
-        src={news[3]?.urlToImage}
+        src="/sample.jpg"
         width={400}
         height={400}
       />
